@@ -1,1 +1,60 @@
-/* developer styles go here */
+.inner-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #344356;    
+}
+header img {
+    width: 100px;
+}
+
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+.nav-links li {
+    margin-left: 0.75rem;
+}
+
+/* position the ribbon to hang outside of the header element  */
+.ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+section {
+    padding-top: 50px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
+}
+
+.box:nth-of-type(2n) {
+    background-color: darkgoldenrod;
+    position: relative;
+    left: 300px;
+}
+.box:last-of-type {
+    background-color: darkorchid;
+    position: relative;
+    left: 600px;
+}
